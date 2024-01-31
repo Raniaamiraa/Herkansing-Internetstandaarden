@@ -18,9 +18,15 @@ article {
   font-size: large;
 }
 
-section{
+.naast-elkaar {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+section {
   align-items: center;
-  background: linear-gradient( #AA4465, #F4C3C2) fixed;
+  background: linear-gradient(#AA4465, #F4C3C2) fixed;
   padding: 1em;
   margin-top: 2em;
   margin-bottom: 2em;
@@ -96,5 +102,3 @@ img:hover {
 img:active {
   transform: scale(2);
 }
-
-
